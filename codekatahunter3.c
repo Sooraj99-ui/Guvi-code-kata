@@ -2,15 +2,15 @@
 
 int main()
 {
-    int n;
-    scanf("%d", &n);
-    int k;
+    int number;
+    scanf("%d", &number);
+    int ko;
     int found = 0;
 
-    for(int i = 0; i < n; i++) {
-        scanf("%d", &k);
-        if(k == i) {
-            printf("%d ", k);
+    for(int i = 0; i < number; i++) {
+        scanf("%d", &ko);
+        if(ko == i) {
+            printf("%d ", ko);
             found = 1;
         }
     }
