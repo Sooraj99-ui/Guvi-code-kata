@@ -1,16 +1,17 @@
+
 # somfonrgiun
 
 from collections import *
 
-number = int(input())
-list = [int(i) for i in input().split(' ')]
+n = int(input())
+l = [int(i) for i in input().split(' ')]
 d = defaultdict(int)
 rep = []
 
-for i in range(number):
-    d[list[i]] += 1
-    if d[list[i]] == 2:
-        rep.append(list[i])
+for i in range(n):
+    d[l[i]] += 1
+    if d[l[i]] == 2:
+        rep.append(l[i])
 
 rep.sort()
 if len(rep) == 0:
