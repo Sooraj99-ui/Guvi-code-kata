@@ -1,4 +1,3 @@
-
 # somfonrgiun
 
 from collections import *
@@ -19,3 +18,4 @@ if len(rep) == 0:
 else:
     for i in range(len(rep)):
         print(rep[i], end=" ")
+
