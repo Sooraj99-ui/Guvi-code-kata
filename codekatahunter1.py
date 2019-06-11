@@ -18,4 +18,4 @@ if len(rep) == 0:
     print("unique")
 else:
     for i in range(len(rep)):
-print(rep[i], end=" ")
+        print(rep[i], end=" ")
